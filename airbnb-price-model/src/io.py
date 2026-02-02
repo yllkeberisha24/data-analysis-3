@@ -1,7 +1,7 @@
 import os
 import pandas as pd
 
-RAW_DIR = "../data/raw"
+RAW_DIR = "/workspaces/data-analysis-3/airbnb-price-model/data/raw"
 
 def load_listings(filename: str, snapshot: str) -> pd.DataFrame:
     path = os.path.join(RAW_DIR, filename)
