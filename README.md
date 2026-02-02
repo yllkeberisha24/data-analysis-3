@@ -134,7 +134,7 @@ All results in the notebook can be reproduced from scratch using these steps.
 
 
 ### Project Structure
-
+```plaintext
 airbnb-price-model/
 ├── data/
 │   ├── raw/            # downloaded via script (ignored by git)
