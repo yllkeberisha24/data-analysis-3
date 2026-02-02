@@ -122,7 +122,7 @@ python airbnb-price-model/src/download_data.py
 ```
 Data Loading
 
-Once the data is downloaded, you can load it into the notebook using the `load_listings()` function defined in the `src/io.py` file. This function takes the downloaded .csv.gz files and loads them into pandas DataFrames.
+Once the data is downloaded, you ca load it in the notebook file. The `load_listings()`  function takes the downloaded .csv.gz files and loads them into pandas DataFrames.
 
 ```bash 
 airbnb-price-model/notebooks/01_airbnb_price_model.ipynb
